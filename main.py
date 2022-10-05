@@ -49,8 +49,9 @@ def show_plot(orders, couriers):
                 x=[x],
                 y=[y],
                 name=name,
-                mode='markers',
+                mode='markers+text',
                 marker=dict(size=20),
+                text=name,
                 marker_symbol=17
             )
         )
