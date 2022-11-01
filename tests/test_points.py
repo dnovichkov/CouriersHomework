@@ -15,5 +15,6 @@ class PointsTest(unittest.TestCase):
         point = Point(2, 'o')
         self.assertRaises(TypeError, point.get_distance_to_center)
 
+
 if __name__ == '__main__':
     unittest.main()
